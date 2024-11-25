@@ -1,0 +1,24 @@
+{
+  "name": "tech_job_postings_scrapper",
+  "version": "1.0.0",
+  "description": "scrape information about tech job postings from a hypothetical job board and organize the data into a structured format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "keywords": [
+    "tech",
+    "job",
+    "web",
+    "scrapping",
+    "node"
+  ],
+  "author": "Deepesh Pundir",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
